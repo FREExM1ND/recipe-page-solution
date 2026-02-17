@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+main {
+  font-family: "Young Serif", "Times New Roman", Times, serif;
+}
+
+.preparation {
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
