@@ -1,0 +1,2 @@
+- Nutrition section looks like it has two distint columns. experiment with that layout for that section.
+- preparation time has its own container with different colors and a border radius

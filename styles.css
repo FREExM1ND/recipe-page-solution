@@ -1,3 +1,43 @@
+:root {
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+  --spacing-128: 8rem;
+  --spacing-48: 3rem;
+  --spacing-40: 2.5rem;
+  --spacing-32: 2rem;
+  --spacing-24: 1.5rem;
+  --spacing-16: 1rem;
+  --spacing-12: 0.75rem;
+  --spacing-8: 0.5rem;
+  --text-xl: 2.5rem;
+  --text-l: 1.75rem;
+  --text-m: 1.25rem;
+  --text-s: 1rem;
+}
+
+.young-serif-xl {
+  font-size: var(--text-xl);
+}
+
+.young-serif-l {
+  font-size: var(--text-l);
+}
+
+.outfit-600-m {
+  font-size: var(--text-m);
+  font-weight: 600;
+}
+
+.outfit-s-150 {
+  font-size: var(--text-s);
+  line-height: 1.5;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -7,10 +47,15 @@ html {
   box-sizing: inherit;
 }
 
-main {
+.young-serif-font {
   font-family: "Young Serif", "Times New Roman", Times, serif;
 }
 
-.preparation {
+.outfit-font {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
