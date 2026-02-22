@@ -14,7 +14,7 @@
   --spacing-16: 1rem;
   --spacing-12: 0.75rem;
   --spacing-8: 0.5rem;
-  --text-xl: 2.5rem;
+  --text-xl: 2.3rem;
   --text-l: 1.75rem;
   --text-m: 1.25rem;
   --text-s: 1rem;
@@ -22,6 +22,7 @@
 
 .young-serif-xl {
   font-size: var(--text-xl);
+  line-height: 1;
 }
 
 .young-serif-l {
@@ -47,6 +48,22 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
 .young-serif-font {
   font-family: "Young Serif", "Times New Roman", Times, serif;
 }
@@ -58,4 +75,14 @@ html {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.introduction {
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.calories,
+.carbs,
+.protein,
+.fat {
 }
