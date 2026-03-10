@@ -87,7 +87,8 @@ section,
 }
 
 hr {
-  color: var(--stone-150);
+  border: none;
+  border: 0.5px solid var(--stone-150);
 }
 
 .introduction {
@@ -153,4 +154,33 @@ li:not(:last-child) {
 .ing-heading,
 .inst-heading {
   color: var(--brown-800);
+}
+
+.nutrition {
+  color: var(--stone-600);
+}
+
+.nutrition h2,
+td:nth-child(2) {
+  color: var(--brown-800);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+td:first-child {
+  width: 50%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+tr:last-child td {
+  border-bottom: none;
 }
