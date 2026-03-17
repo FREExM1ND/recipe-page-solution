@@ -7,8 +7,8 @@
 - the macros need to be aligned properly. check.
 - why is outfit 1 showing a serif when it shouldnt?. didn't get to.
 
-(Date) Agenda
+3/16/26 Agenda
 
-- style credits
-- start large screen styling with media queries, see if text needs to clamp
-- why is outfit 1 showing a serif
+- style credits check
+- start large screen styling with media queries, see if text needs to clamp check
+- why is outfit 1 showing a serif check no idea what's happening just going to upload anyways

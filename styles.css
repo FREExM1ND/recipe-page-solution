@@ -75,7 +75,7 @@ li {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
 
-img {
+.omelette {
   max-width: 100%;
   height: auto;
 }
@@ -183,4 +183,44 @@ td:first-child {
 
 tr:last-child td {
   border-bottom: none;
+}
+
+.credits {
+  text-align: center;
+  color: var(--stone-600);
+}
+.credits a {
+  text-align: center;
+  color: var(--brown-800);
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    background-color: var(--stone-100);
+  }
+
+  .recipe-card {
+    height: auto;
+    width: 38.5rem;
+    background-color: white;
+    margin: var(--spacing-128) auto;
+    border-radius: var(--spacing-24);
+    padding-bottom: 0.25rem;
+  }
+
+  .omelette {
+    margin: var(--spacing-40) var(--spacing-40) 0 var(--spacing-40);
+    border-radius: var(--spacing-12);
+    width: 87%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .recipe-card {
+    width: 46rem;
+  }
+
+  .omelette {
+    width: 89%;
+  }
 }
