@@ -20,27 +20,6 @@
   --text-s: 1rem;
 }
 
-.young-serif-xl {
-  font-size: var(--text-xl);
-  line-height: 1;
-  font-weight: 400;
-}
-
-.young-serif-l {
-  font-size: var(--text-l);
-  font-weight: 400;
-}
-
-.outfit-600-m {
-  font-size: var(--text-m);
-  font-weight: 600;
-}
-
-.outfit-s-150 {
-  font-size: var(--text-s);
-  line-height: 1.5;
-}
-
 html {
   box-sizing: border-box;
 }
@@ -73,6 +52,27 @@ li {
 
 .outfit-font {
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+
+.young-serif-xl {
+  font-size: var(--text-xl);
+  line-height: 1;
+  font-weight: 400;
+}
+
+.young-serif-l {
+  font-size: var(--text-l);
+  font-weight: 400;
+}
+
+.outfit-600-m {
+  font-size: var(--text-m);
+  font-weight: 600;
+}
+
+.outfit-s-150 {
+  font-size: var(--text-s);
+  line-height: 1.5;
 }
 
 .omelette {
